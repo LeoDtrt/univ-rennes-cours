@@ -1,0 +1,62 @@
+---
+title: "Ceci est un titre."
+author: "Léo Dutertre-Ladurée"
+date: "`r format(Sys.time(), '%d %B, %Y')`"
+output:
+  rmdformats::readthedown:
+    highlight: kate
+    df_print: paged
+    code_folding: hide
+---
+
+<style>
+#sidebar {
+  background: red;
+}
+
+#postamble {
+  background:#003366;
+  border-top:solid 10px #5A7B9C;
+}
+
+.title {
+  text-align: center;
+  color: #003366;
+}
+
+.subtitle {
+  color: #003366;
+}
+
+h1, h2, h3, h4, h5, h6, legend {
+  color: #5A7B9C;
+}
+
+#content h2 {
+    background-color: #003366;
+}
+</style>
+
+
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(warning = F, message = F)
+
+library(rmdformats)
+```
+
+
+# Ceci est un sous titre
+
+## Ceci est un sous titre
+
+### Ceci est un sous titre
+
+Début d'un paragraphe.
+
+
+```{r, message=F, warning=F, include=F}
+2+2
+```
+

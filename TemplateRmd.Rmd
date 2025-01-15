@@ -11,7 +11,7 @@ output:
 
 <style>
 #sidebar {
-  background: red;
+  background: green;
 }
 
 #postamble {
